@@ -70,11 +70,7 @@ We welcome contributions to enhance the Family Tree CNN and Body Type Festival C
 3. Make your changes and commit them with clear messages.
 4. Push your branch and submit a pull request.
 
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for more details.
-
-# Acknowledgments
+## Acknowledgments
 
 We would like to thank the contributors and the open-source community for their invaluable resources and support in developing these models.
 
@@ -82,3 +78,7 @@ We would like to thank the contributors and the open-source community for their 
 
 Thank you for exploring the Family Tree CNN and Body Type Festival CNN project! We hope you find it insightful and useful in your endeavors.
 
+
+## License
+
+This project is licensed under the MIT License. See the LICENSE file for more details.
