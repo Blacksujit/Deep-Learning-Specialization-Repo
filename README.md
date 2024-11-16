@@ -1,4 +1,4 @@
-# Deep-Neural-Network Learning Repository 
+# 🌟  Deep-Neural-Network Learning Repository 🌟
 
 ## Overview
 
