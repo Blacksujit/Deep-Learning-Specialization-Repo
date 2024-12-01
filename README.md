@@ -1,6 +1,6 @@
 # 🌟  Deep-Neural-Network Learning Repository 🌟
 
-## Overview:
+## Overview
 
 Welcome to the **Family Tree CNN and Body Type Festival CNN** project! This repository showcases two innovative Convolutional Neural Network (CNN) models developed using the powerful TensorFlow and Keras frameworks. 
 
