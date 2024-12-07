@@ -19,7 +19,7 @@ Both models are meticulously implemented in Jupyter Notebook files, showcasing a
 - [Contributing](#contributing)
 - [License](#license)
 
-## Installation:
+## Installation
 
 To get started with this project, ensure you have Python installed on your machine. You will also need to install the following libraries to run the code effectively:
 
