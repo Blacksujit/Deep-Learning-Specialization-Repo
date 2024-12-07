@@ -4,7 +4,7 @@
 
 Welcome to the **Family Tree CNN and Body Type Festival CNN** project! This repository showcases two innovative Convolutional Neural Network (CNN) models developed using the powerful TensorFlow and Keras frameworks. 
 
-### Project Highlights:
+### Project Highlights
 
 1. **Family Tree CNN Model**: This model is ingeniously crafted to predict the next child image in a family lineage based on a series of input images. It leverages deep learning techniques to understand familial traits and visual patterns, making it a fascinating exploration into the intersection of technology and genetics.
 
