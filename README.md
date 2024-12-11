@@ -81,6 +81,12 @@ We welcome contributions to enhance the Family Tree CNN and Body Type Festival C
 
 ![image](https://github.com/user-attachments/assets/207e4673-dbeb-4f67-a0b8-d8201d4ffe08)
 
+**3.)Binnary Exponential Backoff:**
+
+![image](https://github.com/user-attachments/assets/21b470da-e2b6-4dcb-84f6-56827bba5999)
+
+![image](https://github.com/user-attachments/assets/fafcc07b-f5ac-4918-9017-41a663c90d2a)
+
 
 ## Acknowledgments:
 
