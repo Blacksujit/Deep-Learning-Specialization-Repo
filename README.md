@@ -1,74 +1,43 @@
-# 🌟 Deep-Neural-Network Learning Repository 🌟
+# 🌟 Deep Learning Specialization Repository 🌟
 
-## Overview
+Welcome to the **Deep Learning Specialization Repository**! 🚀 This repository is designed to help you dive deep into neural networks, understand core concepts, and explore hands-on deep learning projects.
 
-Welcome to the **Family Tree CNN and Body Type Festival CNN** project! This repository showcases two innovative Convolutional Neural Network (CNN) models developed using the powerful TensorFlow and Keras frameworks. 
+## 📂 Project List
 
-### Project Highlights:
+Below is an **automatically updated list** of all the projects in this repository:
 
-1. **Family Tree CNN Model**: This model is ingeniously crafted to predict the next child image in a family lineage based on a series of input images. It leverages deep learning techniques to understand familial traits and visual patterns, making it a fascinating exploration into the intersection of technology and genetics.
+<!-- PROJECT LIST START -->
+<!-- This section will be auto-generated -->
+<!-- PROJECT LIST END -->
 
-2. **Body Type Festival CNN Model**: This model is designed to classify various body types and recommend suitable festival dresses. By analyzing images, it aims to provide personalized fashion suggestions, enhancing the user experience in the realm of fashion and style.
+---
 
-Both models are meticulously implemented in Jupyter Notebook files, showcasing a variety of advanced layers and techniques to optimize performance. These include convolutional layers for feature extraction, max pooling for dimensionality reduction, batch normalization for stabilizing learning, and dropout for regularization to prevent overfitting.
+## 🛠️ Technologies Used
+- **Python 3.x**: Core programming language
+- **TensorFlow/Keras**: Deep learning frameworks
+- **NumPy/Pandas**: Data handling and preprocessing
+- **Matplotlib**: Visualization of results
+- **Jupyter Notebooks**: Interactive development and documentation
 
-## Table of Contents:
+---
 
-- [Installation](#installation)
-- [Usage](#usage)  
-- [Contributing](#contributing)
-- [License](#license)
-
-## Installation:
-
-To get started with this project, ensure you have Python installed on your machine. You will also need to install the following libraries to run the code effectively:
-
-- **TensorFlow**: A powerful library for numerical computation and machine learning.
-- **Keras**: A high-level neural networks API, written in Python and capable of running on top of TensorFlow.
-- **Matplotlib**: A plotting library for the Python programming language and its numerical mathematics extension, NumPy, which is essential for visualizing the results.
- 
-
-## Usage:
-
-To use the Family Tree CNN and Body Type Festival CNN models, follow the instructions below:
-
-### Family Tree CNN Model:
-
-1. **Input Preparation**: Gather a series of images representing the family lineage. Ensure that the images are of high quality and properly aligned.
-2. **Model Training**: Use the provided Jupyter Notebook to train the model. Adjust the hyperparameters as necessary to improve accuracy.
-3. **Prediction**: After training, input a sequence of family images into the model to predict the next child image. The model will output the generated image based on learned traits.
-
-### Body Type Festival CNN Model:
-
-1. **Image Collection**: Collect images of various body types and festival dresses. Ensure diversity in body types and styles.
-2. **Model Training**: Open the Jupyter Notebook dedicated to the Body Type Festival CNN. Train the model using the collected images, tweaking parameters for optimal results.
-3. **Classification and Recommendations**: Once trained, input an image of a body type to receive recommendations for suitable festival dresses.
- 
-
-
-### Family Tree CNN Model Architecture:
-
-- **Input Layer**: Accepts a series of images.
-- **Convolutional Layers**: Extract features from the images using multiple filters.
-- **Max Pooling Layers**: Reduce dimensionality while retaining important features.
-- **Fully Connected Layers**: Combine features to make predictions about the next child image.
-- **Output Layer**: Generates the predicted image.
-
-### Body Type Festival CNN Model Architecture:
-
-- **Input Layer**: Accepts images of body types.
-- **Convolutional Layers**: Identify patterns and features in the images.
-- **Dropout Layers**: Prevent overfitting by randomly dropping units during training.
-- **Output Layer**: Classifies the body type and suggests appropriate festival dresses.
-
-## Contributing:
-
-We welcome contributions to enhance the Family Tree CNN and Body Type Festival CNN models. To contribute:SSS
-
-1. Fork the repository.
-2. Create a new branch for your feature or bug fix.
-3. Make your changes and commit them with clear messages.
-4. Push your branch and submit a pull request.
+## 🚀 How to Use
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/Blacksujit/Deep-Learning-Repository.git
+   ```
+2. **Navigate to a project**:
+   ```bash
+   cd <Project-Directory>
+   ```
+3. **Install dependencies**:
+   ```bash
+   pip install -r requirements.txt
+   ```
+4. **Run the notebook**:
+   ```bash
+   jupyter notebook
+   ```
 
 ## Some dump output images generated by the Neural Networks models :
 
@@ -88,15 +57,96 @@ We welcome contributions to enhance the Family Tree CNN and Body Type Festival C
 ![image](https://github.com/user-attachments/assets/fafcc07b-f5ac-4918-9017-41a663c90d2a)
 
 
-## Acknowledgments:
+---
 
-We would like to thank the contributors and the open-source community for their invaluable resources and support in developing these models.
+## ⚙️ Automation Code for Updating Project List
+Add the following Python script to your repository's root directory as `update_readme.py`. Run this script to automatically update the project list:
 
-## Conclusion:
+```python
+import os
 
-Thank you for exploring the Family Tree CNN and Body Type Festival CNN project! We hope you find it insightful and useful in your endeavors.
+README_FILE = "README.md"
+PROJECT_LIST_START = "<!-- PROJECT LIST START -->"
+PROJECT_LIST_END = "<!-- PROJECT LIST END -->"
 
+def get_projects():
+    projects = []
+    for item in os.listdir():
+        if os.path.isdir(item) and item not in ['.git', '__pycache__', '.github']:
+            if os.path.exists(os.path.join(item, 'README.md')):
+                projects.append(item)
+    return sorted(projects)
 
-## License:
+def update_readme(projects):
+    with open(README_FILE, 'r') as file:
+        content = file.read()
 
-This project is licensed under the MIT License. See the LICENSE file for more details.
+    before = content.split(PROJECT_LIST_START)[0]
+    after = content.split(PROJECT_LIST_END)[1]
+
+    project_list = "\n".join([f"- [{project}](./{project}/README.md)" for project in projects])
+    new_content = f"{before}{PROJECT_LIST_START}\n{project_list}\n{PROJECT_LIST_END}{after}"
+
+    with open(README_FILE, 'w') as file:
+        file.write(new_content)
+
+def main():
+    projects = get_projects()
+    update_readme(projects)
+    print("README.md updated successfully!")
+
+if __name__ == "__main__":
+    main()
+```
+
+### How to Use:
+1. Add the script to your repository as `update_readme.py`.
+2. Run the script:
+   ```bash
+   python update_readme.py
+   ```
+3. Commit and push the changes:
+   ```bash
+   git add README.md
+   git commit -m "Update project list dynamically"
+   git push
+   ```
+
+---
+
+## 🤝 Contributing
+1. Fork the repository.
+2. Add your project in a separate folder.
+3. Commit your changes:
+   ```bash
+   git commit -m "Add new project: <Project Name>"
+   ```
+4. Submit a pull request.
+
+---
+
+## ⭐ Stay Updated
+This repository updates itself dynamically! Just add your projects into the root directory following this structure:
+```bash
+Deep-Learning-Repository/
+│
+├── Project-1/
+│   ├── README.md
+│   └── main.ipynb
+│
+├── Project-2/
+│   ├── README.md
+│   └── main.ipynb
+│
+└── README.md
+```
+
+---
+
+⭐ **Star this repository** to keep track of new updates!
+
+---
+
+## Contact:
+- **GitHub**: [Sujit Nirmal](https://github.com/Blacksujit)
+- **Email**:nirmalsujit981@gmail.com 
