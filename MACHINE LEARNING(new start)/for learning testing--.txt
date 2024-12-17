@@ -1,0 +1,16 @@
+for learning testing-- for frontend
+
+
+
+1.jest
+2. cypress
+
+
+another technology's
+
+1. typescript
+
+
+
+
+

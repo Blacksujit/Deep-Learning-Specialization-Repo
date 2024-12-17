@@ -1,0 +1,6 @@
+Commands for login Page
+
+
+1.)python manage.py makemigrations
+
+2.)python manage.py migrate

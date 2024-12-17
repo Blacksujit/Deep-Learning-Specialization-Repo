@@ -1,0 +1,15 @@
+some great platforms link to learn machine learning:-
+
+1.)Machine Learning for Web Developers: https://developers.google.com/machine-learning
+
+2.)Coursera's Specialization on Machine Learning for Web Development:
+ https://www.coursera.org/browse/data-science/machine-learning
+
+3.)Udacity's Nanodegree on Full-Stack MachineLearning:https://www.udacity.com/course/full-stack-web-developer-nanodegree--nd0044
+
+4.)GitHub repositories with examples of machine learning in web development:https://github.com/topics/artificial-intelligence-projects
+
+
+---- Website to Practice Machine learning-----
+
+Kaggle is website where yu can practice  machine learning where yu can find a big data sets for practice machine learning
