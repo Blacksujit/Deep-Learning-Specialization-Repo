@@ -2,13 +2,7 @@
 
 Welcome to the **Deep Learning Specialization Repository**! 🚀 This repository is designed to help you dive deep into neural networks, understand core concepts, and explore hands-on deep learning projects.
 
-## 📂 Project List
 
-Below is an **automatically updated list** of all the projects in this repository:
-
-<!-- PROJECT LIST START -->
-<!-- This section will be auto-generated -->
-<!-- PROJECT LIST END -->
 
 ---
 
