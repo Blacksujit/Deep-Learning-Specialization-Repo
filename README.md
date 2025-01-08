@@ -17,7 +17,8 @@ Welcome to the **Deep Learning Specialization Repository**! 🚀 This repository
 
 ---
 
-## 🚀 How to Use
+## 🚀 How to Use:
+
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/Blacksujit/Deep-Learning-Repository.git
