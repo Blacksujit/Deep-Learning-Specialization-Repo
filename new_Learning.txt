@@ -1,0 +1,8 @@
+ML Model Accuracy :
+
+1.) to increase the accuracy of the ML model we have  to do the hyper parameter tuning 
+
+2.) hyper parameter tuning is done to increase the accuracy of the ML model 
+
+-- Remember this if yu forgeot then google it gpt it or do any of these thinsg but keep it in mind
+

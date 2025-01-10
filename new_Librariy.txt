@@ -1,0 +1,8 @@
+Todays Learning New Machine Learning Library   date -- saturday 22-5-2024
+
+Scipy  -- search it on google
+(Machine learning library learned today)
+
+
+
+
