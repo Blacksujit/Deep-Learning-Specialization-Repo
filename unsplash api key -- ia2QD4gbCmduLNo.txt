@@ -1,1 +1,1 @@
-unsplash api key -- yur key
+unsplash api key -- yur api key
