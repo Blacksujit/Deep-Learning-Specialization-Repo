@@ -7,7 +7,7 @@ Welcome to the **Deep Learning Specialization Repository**! 🚀 This repository
 
 ---
 
-## 🛠️ Technologies Used:
+## 🛠️ Technologies Used
 
 - **Python 3.x**: Core programming language
 - **TensorFlow/Keras**: Deep learning frameworks
